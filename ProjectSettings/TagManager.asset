@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FilteredInventory
+  - GameMenu
+  - DangerousTile
+  - LargeTile
+  - LevelChanger
+  - Building
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BackGround
+  - PlayerCharacter
+  - Front
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 190569965
+    locked: 0
+  - name: MapGround
+    uniqueID: 602493857
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: PlayerCharacter
+    uniqueID: 100723187
+    locked: 0
+  - name: Front
+    uniqueID: 3391826969
+    locked: 0
