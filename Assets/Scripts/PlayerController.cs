@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     float moveSpeed;
     public GameObject buildingEntrance;
 
-    // Update is called once per frame
     private void Awake()
     {
         GameManager gameManager = FindObjectOfType<GameManager>();
