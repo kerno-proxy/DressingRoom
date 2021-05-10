@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae08e3a9b534be49a42869bb74218f3, type: 3}
+  m_Name: Alphabet Database
+  m_EditorClassIdentifier: 
+  Alphabet:
+  - _letterImage: {fileID: -8286372089332811444, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: A
+  - _letterImage: {fileID: -8713939661745144300, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: B
+  - _letterImage: {fileID: 4833980476582042156, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: C
+  - _letterImage: {fileID: -7606789678348708129, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: D
+  - _letterImage: {fileID: 6687857327933512944, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: E
+  - _letterImage: {fileID: -5571589920626394281, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: F
+  - _letterImage: {fileID: 8218530986096509996, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: G
+  - _letterImage: {fileID: -4008505952300510428, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: I
+  - _letterImage: {fileID: 2298644036025459916, guid: 0da0c0480076ae84698a07db440ca36a, type: 3}
+    _letterName: S
