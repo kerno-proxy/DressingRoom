@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using TMPro;
 
 public class AlphabetRandomizer : MonoBehaviour
 {
@@ -14,11 +15,15 @@ public class AlphabetRandomizer : MonoBehaviour
     List<GameObject> _guess_buttons_array = new List<GameObject>();
     [SerializeField]
     AlphabetLettersDatabase _alphabetDatabase;
+    [SerializeField]
+    GameObject _scoreObject;
+    [SerializeField]
+    int _scoreCount;
     
 
     private void Awake()
     {
-        
+
         if (_guess_example == null)
         {
             Debug.LogError("Missing example reference");
@@ -27,11 +32,11 @@ public class AlphabetRandomizer : MonoBehaviour
         {
             Debug.LogError("Missing alphabet letters database reference");
         }
-        
+
 
         GameObject[] _guess_buttons = GameObject.FindGameObjectsWithTag("GuessButton");
-        
-        for (int i = 0; i<_guess_buttons.Length; i++)
+
+        for (int i = 0; i < _guess_buttons.Length; i++)
         {
             _guess_buttons_array.Add(_guess_buttons[i]);
         }
@@ -41,6 +46,17 @@ public class AlphabetRandomizer : MonoBehaviour
         }
 
         Randomize();
+        
+        ScoreUpdate();
+    }
+
+    private void ScoreUpdate()
+    {
+        if (_scoreCount > 999)
+        {
+            _scoreCount = 999;
+        }
+        _scoreObject.GetComponent<TMP_Text>().text = "Your score is: " + _scoreCount;
     }
 
     void Randomize()
@@ -77,6 +93,8 @@ public class AlphabetRandomizer : MonoBehaviour
             {
                 Randomize();
                 Debug.Log("Correct!");
+                _scoreCount += 100;
+                ScoreUpdate();
             } else { Debug.Log("Incorrect!!");
                 Randomize();
             }

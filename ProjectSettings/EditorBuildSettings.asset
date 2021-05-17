@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldMap.unity
     guid: e6bb87bab13fa954e80585127b8ab0b5
+  - enabled: 1
+    path: Assets/Scenes/Minigames/AlphabetMiniGame.unity
+    guid: 0be08a785c1736641ad3bb38b080bb7b
   m_configObjects: {}
