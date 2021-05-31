@@ -10,7 +10,8 @@ public class StartGameButtonScripts : MonoBehaviour
     {
         if (!particleSystem.isPlaying)
         {
-            particleSystem.Play(); 
+            particleSystem.Play();
+            Debug.Log("Sending sparkles!");
         }
     }
 }
