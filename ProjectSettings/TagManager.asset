@@ -22,7 +22,7 @@ TagManager:
   - BackGround
   - PlayerCharacter
   - Front
-  - 
+  - ParticlesLayer
   - 
   - 
   - 
@@ -58,4 +58,7 @@ TagManager:
     locked: 0
   - name: Front
     uniqueID: 3391826969
+    locked: 0
+  - name: ParticlesSortingLayer
+    uniqueID: 1697487147
     locked: 0
